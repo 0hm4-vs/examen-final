@@ -1,0 +1,261 @@
+body{
+    overflow-x: hidden;
+}
+.photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 200px;
+}
+
+.imagenes {
+    margin: 20px;
+    height: 200px;
+    width: 500px;
+
+}
+
+.contacto .container {
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contacto .rectangulo {
+    margin-top: -5rem;
+    background-color: rgb(13, 110, 253);
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+}
+.contacto button {
+    padding: 1em 1em;
+    margin: 10px;
+}
+
+.contacto button {
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1em 1em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+.contacto .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.seccion-titulo {
+    font-size: 1.5rem;
+    padding: 15px 0;
+    text-align: center;
+    font-family: 'Rubik Dirt', cursive;
+}
+.contacto .descripcion {
+    color: white;
+    font-size: 1rem;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.small-image {
+    width: 70px; /* Ajusta el ancho según sea necesario */
+    height: 90px; /* Altura automática para mantener la proporción */
+    display: block; /* Para asegurar que no haya espacios adicionales */
+    margin: 0 auto; /* Centrar horizontalmente la imagen */
+    justify-content: flex-start;
+}
+.personas{
+    height: 200px;
+    width: 100%;
+}
+
+.card-img-top{
+    height: 250px;
+}
+
+.card:hover{
+    background-color: #1b1b32;
+    color: white;
+    transition: 0.3s ease;
+
+}
+
+
+.card:hover{
+    color: white;
+}
+
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.redes img {
+    max-width: 30px;
+    margin: 5px;
+}
+
+ins{
+    text-decoration: underline blue;
+}
+
+h1{
+    margin-top: 10px;
+}
+h2{
+    font-size: 40px;
+    font-family: serif;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: larger;
+}
+
+.seccion-oscura {
+    color: white;
+    /*background-color: #1b1b32;*/
+}
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+@media screen and (max-width: 480px) {
+    .iconos-redes-sociales a {
+        width: 30px;
+        height: 30px;
+        padding: 1px;
+        margin: 5px;
+    }
+}
+.iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*padding: 2px;*/
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+a {
+    color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+    text-decoration: underline;
+}
+.align-items-center {
+    align-items: center !important;
+}
+.justify-content-center {
+    justify-content: center !important;
+}
+.flex-wrap {
+    flex-wrap: wrap !important;
+}
+.d-flex {
+    display: flex !important;
+}
+
+.testimonio-imagen {
+    height: 150px;
+    width: 150px;
+    margin: 10px 10px 20px 10px;
+}
+.rounded-circle {
+    border-radius: 50% !important;
+}
+img, svg {
+    vertical-align: middle;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.bi-laptop{
+    font-size: 3rem;
+    padding: 8px 19px;
+    color: #7ade30;
+    background-color: #0a0a23;
+    border-radius: 50%;
+}
+.columna p {
+    margin: 0 auto;
+    text-indent: 1cm;
+    text-align: justify;
+}
+
+.bi-envelope{
+    font-size: 2rem;
+    color: white;
+}
+.bi-instagram{
+    font-size: 2rem;
+    color: white;
+}
+.bi-linkedin{
+    font-size: 2rem;
+    color: white;
+}
+.bi-facebook{
+    font-size: 2rem;
+    color: white;
+}
+.bi-twitter{
+    font-size: 2rem;
+    color: white;
+}
+.experiencia {
+    padding: 40px;
+}
+.seccion-clara {
+    color: black;
+    background-color: white;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.experiencia .columna:hover {
+    color: white;
+    background-color: #1b1b32;
+}
+.experiencia .columna {
+    padding: 20px;
+    border: 2px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+}
